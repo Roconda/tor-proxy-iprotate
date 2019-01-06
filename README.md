@@ -4,6 +4,7 @@ Docker image containing tor with fast ip rotation and possibility to select your
 ## Features
 
 * 30 second ip rotation
+* ip region selection
 
 ## Running
 
@@ -30,3 +31,9 @@ It's possible to use tor exit nodes from a specific region. The following region
 * nl (The Netherlands)
 * gb (Great Britain)
 * eu (Europe, multiple countries)
+
+To use an ip from Germany run the container with the following command.
+
+```bash
+docker run -p 127.0.0.1:9050:9050 -d --name tor-proxy-germany timms/tor-proxy-rapid-ip-rotation:de
+```
