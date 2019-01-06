@@ -19,3 +19,14 @@ Configure your client's proxy settings with `localhost` and port `9050`(socks5).
 curl --socks5-hostname 127.0.0.1:9050 ipecho.net/plain
 curl --socks5-hostname 127.0.0.1:9050 whatismyip.akamai.com
 ```
+
+### Using a specific exit region
+
+It's possible to use tor exit nodes from a specific region. The following regions are available as a docker tag.
+
+* us (USA)
+* de (Germany)
+* fr (France)
+* nl (The Netherlands)
+* uk (United Kingdom)
+* eu (Europe, multiple countries)
