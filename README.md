@@ -28,5 +28,5 @@ It's possible to use tor exit nodes from a specific region. The following region
 * de (Germany)
 * fr (France)
 * nl (The Netherlands)
-* uk (United Kingdom)
+* gb (Great Britain)
 * eu (Europe, multiple countries)
